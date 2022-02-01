@@ -1,0 +1,23 @@
+.item {
+	cursor: pointer;
+
+	padding: 1rem;
+	margin: 1rem;
+
+	transition-duration: 0.25s;
+}
+
+.item p {
+	margin-bottom: 0;
+}
+
+.item:hover {
+	border-bottom: 2px solid rgb(61, 61, 61);
+
+	transition-duration: 0.25s;
+}
+
+.active {
+	font-weight: 800;
+	border-bottom: 2px solid black;
+}
