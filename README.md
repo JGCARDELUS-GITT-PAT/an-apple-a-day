@@ -1,6 +1,6 @@
 # an-apple-a-day
 
-Keeps the doctor away. This page is the follow up to a-window-into-microsoft and now it has Bootstrap!
+Keeps your money away. This page is the follow up to a-window-into-microsoft and now it has Bootstrap!
 
 Note: This is a satirical page. Please don't take it seriously.
 
