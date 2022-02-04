@@ -1,11 +1,11 @@
 import React from "react";
 
-const FormInput = React.forwardRef((props, ref) => {
+const FormInput = (props) => {
 	return (
 		<div className="form-floating mb-3">
 			<input
 				value={props.value}
-				ref={ref}
+				onChange={props.onChange}
 				type={props.type}
 				className="form-control"
 				id={props.id}
@@ -14,6 +14,6 @@ const FormInput = React.forwardRef((props, ref) => {
 			<label htmlFor={props.id}>{props.children}</label>
 		</div>
 	);
-});
+};
 
 export default FormInput;

@@ -16,16 +16,31 @@ const StoreFormWrapper = (props) => {
 };
 
 const StoreForm = () => {
-	const [inputValue, setInputValue] = useState("");
+	// Is there a better way to do this??
+	const [email, setEmail] = useState("");
+	const [username, setUsername] = useState("");
+	const [comments, setComments] = useState("");
+	const [random, setRandom] = useState("");
+
 	const [formSubmitted, setFormSubmitted] = useState(false);
 
 	const submitClickHandler = (event) => {
-		setInputValue("Nothing you entered matters :)");
+		const message = "Nothing you entered matters :)";
+
+		setEmail(message);
+		setUsername(message);
+		setComments(message);
+		setRandom(message);
+
 		setFormSubmitted(true);
 	};
 
 	const resetClickHandler = (event) => {
-		setInputValue("");
+		setEmail("");
+		setUsername("");
+		setComments("");
+		setRandom("");
+
 		setFormSubmitted(false);
 	};
 
@@ -34,7 +49,8 @@ const StoreForm = () => {
 			<div className="row">
 				<div className="col-sm">
 					<FormInput
-						value={inputValue}
+						value={email}
+						onChange={(event) => setEmail(event.target.value)}
 						type="email"
 						id="email"
 						placeholder="example@anotherExample.com"
@@ -44,7 +60,8 @@ const StoreForm = () => {
 				</div>
 				<div className="col-sm">
 					<FormInput
-						value={inputValue}
+						value={username}
+						onChange={(event) => setUsername(event.target.value)}
 						type="text"
 						id="username"
 						placeholder="JGCardelus"
@@ -57,7 +74,8 @@ const StoreForm = () => {
 			<div className="row">
 				<div className="col-sm">
 					<FormInput
-						value={inputValue}
+						value={comments}
+						onChange={(event) => setComments(event.target.value)}
 						type="text"
 						id="useless-comments"
 						placeholder="This page sucks man!"
@@ -67,7 +85,8 @@ const StoreForm = () => {
 				</div>
 				<div className="col-sm">
 					<FormInput
-						value={inputValue}
+						value={random}
+						onChange={(event) => setRandom(event.target.value)}
 						type="text"
 						id="random-input"
 						placeholder="Random"
