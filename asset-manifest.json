@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/an-apple-a-day/static/css/main.05ba0c50.css",
-    "main.js": "/an-apple-a-day/static/js/main.cb84b33a.js",
+    "main.js": "/an-apple-a-day/static/js/main.85798ae2.js",
     "static/js/787.bb2cdd22.chunk.js": "/an-apple-a-day/static/js/787.bb2cdd22.chunk.js",
     "static/media/wubba.gif": "/an-apple-a-day/static/media/wubba.e9c31c0e13c6d7581975.gif",
     "static/media/iphone.jpeg": "/an-apple-a-day/static/media/iphone.ae8f1f1d739c6801735d.jpeg",
     "index.html": "/an-apple-a-day/index.html",
     "main.05ba0c50.css.map": "/an-apple-a-day/static/css/main.05ba0c50.css.map",
-    "main.cb84b33a.js.map": "/an-apple-a-day/static/js/main.cb84b33a.js.map",
+    "main.85798ae2.js.map": "/an-apple-a-day/static/js/main.85798ae2.js.map",
     "787.bb2cdd22.chunk.js.map": "/an-apple-a-day/static/js/787.bb2cdd22.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.05ba0c50.css",
-    "static/js/main.cb84b33a.js"
+    "static/js/main.85798ae2.js"
   ]
 }
